@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="@dimen/buttonSize"
+        android:layout_height="@dimen/buttonSize"
+        android:text="@string/space"
+        android:id="@+id/button"
+        android:background="@drawable/tic_tac_toe_button"
+        android:textSize="@dimen/inside_button_text_size"
+        android:textColor="@color/black"
+        android:layout_marginTop="28dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="@dimen/buttonSize"
+        android:layout_height="@dimen/buttonSize"
+        android:text="@string/space"
+        android:background="@drawable/tic_tac_toe_button"
+        android:id="@+id/button2"
+        android:textSize="@dimen/inside_button_text_size"
+        android:textColor="@color/black"
+        android:layout_alignTop="@+id/button"
+        android:layout_toRightOf="@+id/button"
+        android:layout_toEndOf="@+id/button" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="@dimen/buttonSize"
+        android:layout_height="@dimen/buttonSize"
+        android:text="@string/space"
+        android:background="@drawable/tic_tac_toe_button"
+        android:id="@+id/button3"
+        android:layout_alignTop="@+id/button2"
+        android:layout_toRightOf="@+id/button2"
+        android:layout_toEndOf="@+id/button2"
+        android:textSize="@dimen/inside_button_text_size"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:layout_width="@dimen/buttonSize"
+        android:layout_height="@dimen/buttonSize"
+        android:text="@string/space"
+        android:id="@+id/button4"
+        android:background="@drawable/tic_tac_toe_button"
+        android:layout_below="@+id/button"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button"
+        android:layout_marginTop="23dp"
+        android:textSize="@dimen/inside_button_text_size"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:layout_width="@dimen/buttonSize"
+        android:layout_height="@dimen/buttonSize"
+        android:text="@string/space"
+        android:id="@+id/button5"
+        android:background="@drawable/tic_tac_toe_button"
+        android:layout_alignBottom="@+id/button4"
+        android:layout_toRightOf="@+id/button4"
+        android:layout_toEndOf="@+id/button4"
+        android:textSize="@dimen/inside_button_text_size"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:layout_width="@dimen/buttonSize"
+        android:layout_height="@dimen/buttonSize"
+        android:text="@string/space"
+        android:background="@drawable/tic_tac_toe_button"
+        android:id="@+id/button6"
+        android:layout_alignTop="@+id/button5"
+        android:layout_toRightOf="@+id/button5"
+        android:layout_toEndOf="@+id/button5"
+        android:textSize="@dimen/inside_button_text_size"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:layout_width="@dimen/buttonSize"
+        android:layout_height="@dimen/buttonSize"
+        android:text="@string/space"
+        android:background="@drawable/tic_tac_toe_button"
+        android:id="@+id/button7"
+        android:layout_marginTop="36dp"
+        android:layout_below="@+id/button4"
+        android:layout_toLeftOf="@+id/button5"
+        android:layout_toStartOf="@+id/button5"
+        android:textSize="@dimen/inside_button_text_size"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:layout_width="@dimen/buttonSize"
+        android:layout_height="@dimen/buttonSize"
+        android:text="@string/space"
+        android:id="@+id/button8"
+        android:background="@drawable/tic_tac_toe_button"
+        android:layout_alignBottom="@+id/button7"
+        android:layout_toRightOf="@+id/button7"
+        android:layout_toEndOf="@+id/button7"
+        android:textSize="@dimen/inside_button_text_size"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:layout_width="@dimen/buttonSize"
+        android:layout_height="@dimen/buttonSize"
+        android:text="@string/space"
+        android:background="@drawable/tic_tac_toe_button"
+        android:id="@+id/button9"
+        android:layout_alignBottom="@+id/button8"
+        android:layout_toRightOf="@+id/button8"
+        android:layout_toEndOf="@+id/button8"
+        android:textSize="@dimen/inside_button_text_size"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/player"
+        android:id="@+id/textView"
+        android:textSize="@dimen/player_info_text_size"
+        android:layout_below="@+id/textView2"
+        android:layout_alignRight="@+id/scoreTextView"
+        android:layout_alignEnd="@+id/scoreTextView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/one"
+        android:id="@+id/playerMove"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView"
+        android:layout_marginLeft="27dp"
+        android:textSize="@dimen/player_info_text_size"
+        android:layout_marginStart="27dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/tic_tac_toe_game"
+        android:id="@+id/textView2"
+        android:textSize="50sp"
+        android:layout_marginTop="28dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tic_tac_toe_button"
+        android:text="@string/play_again"
+        android:id="@+id/playAgainButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/button9"
+        android:layout_alignEnd="@+id/button9"
+        android:layout_marginBottom="26dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/score_0_0"
+        android:id="@+id/scoreTextView"
+        android:textSize="@dimen/player_info_text_size"
+        android:layout_alignBottom="@+id/playAgainButton"
+        android:layout_alignLeft="@+id/button7"
+        android:layout_alignStart="@+id/button7" />
+
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/autumn"
+    tools:context="com.example.homeworkone.TaskOneActivity">
+
+    <Button
+        android:layout_width="@dimen/button_horizontal"
+        android:layout_height="@dimen/button_vertical"
+        android:text="@string/press"
+        android:id="@+id/buttonA"
+        style="@android:style/Widget.Holo.Button.Toggle"
+        android:textSize="@dimen/text_size"
+        android:layout_marginBottom="148dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/buttonB"
+        android:layout_toStartOf="@+id/buttonB" />
+
+    <Button
+        android:layout_width="@dimen/button_horizontal"
+        android:layout_height="@dimen/button_vertical"
+        android:text="@string/some"
+        android:id="@+id/buttonB"
+        android:layout_alignTop="@+id/buttonA"
+        android:layout_centerHorizontal="true"
+        style="@android:style/Widget.Holo.Button.Toggle"
+        android:textSize="@dimen/text_size"/>
+
+    <Button
+        android:layout_width="@dimen/button_horizontal"
+        android:layout_height="@dimen/button_vertical"
+        android:text="@string/button"
+        android:id="@+id/buttonC"
+        android:layout_alignTop="@+id/buttonB"
+        android:layout_toRightOf="@+id/buttonB"
+        style="@android:style/Widget.Holo.Button.Toggle"
+        android:textSize="@dimen/text_size"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/text_to_change"
+        android:id="@+id/textView"
+        android:layout_marginTop="99dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

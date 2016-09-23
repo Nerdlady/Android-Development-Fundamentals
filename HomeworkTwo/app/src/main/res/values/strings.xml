@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">HomeworkTwo</string>
+    <string name="tic_tac_toe">Tic-Tac-Toe</string>
+    <string name="space" />
+    <string name="player">Player:</string>
+    <string name="tic_tac_toe_game">TIC TAC TOE</string>
+    <string name="play_again">Play again</string>
+    <string name="score_0_0">Score: 0:0</string>
+    <string name="one">One</string>
+    <string name="task_two">Task Two</string>
+    <string name="time_arives">Разписание</string>
+    <string name="spotify">Spotify</string>
+    <string name="pop_right_now">POP RIGHT NOW!</string>
+    <string name="sofbus">SOFBUS</string>
+    <string name="homework_two">Homework Two</string>
+</resources>

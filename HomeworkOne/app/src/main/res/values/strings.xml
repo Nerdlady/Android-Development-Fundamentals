@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HomeworkOne</string>
+    <string name="click_me">Click me</string>
+    <string name="task_one">Task One</string>
+    <string name="task_two">Task Two</string>
+    <string name="text_to_change">Text to change</string>
+    <string name="button">button</string>
+    <string name="some">some</string>
+    <string name="press">Press</string>
+</resources>
