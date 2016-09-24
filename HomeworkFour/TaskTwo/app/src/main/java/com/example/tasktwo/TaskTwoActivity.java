@@ -65,9 +65,9 @@ public class TaskTwoActivity extends AppCompatActivity implements Observer {
 
             AlarmManager alarm = (AlarmManager) getSystemService(Context.ALARM_SERVICE);
 
-            // Start service every hour
+            // Start service every five minutes in order to avoid waiting one hour
             alarm.setRepeating(AlarmManager.RTC_WAKEUP, SystemClock.elapsedRealtime(),
-                    60000, pintent);
+                    300000, pintent);
         }
     }
 
