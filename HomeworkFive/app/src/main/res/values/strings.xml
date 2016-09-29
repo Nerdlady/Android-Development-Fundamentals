@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HomeworkFive</string>
+    <string name="show_data">Show data</string>
+    <string name="add_items_to_database">Add 10 items to database</string>
+</resources>
